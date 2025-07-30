@@ -1,7 +1,7 @@
 
 # Solar System Simulation 🌌
 
-An interactive 3D simulation of the Solar System built with JavaScript and Three.js.
+An interactive 3D simulation of the Solar System built with Python.
 
 ## 🧭 Overview
 
