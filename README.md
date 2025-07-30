@@ -1,87 +1,77 @@
+Solar System Simulation 🌌
+An interactive simulation of the Solar System written in Python.
 
-# Solar System Simulation 🌌
+🧭 Overview
+This project simulates the movement of the Sun and planets in the Solar System using Python. It provides a visual and interactive way to learn about planetary orbits and rotations.
 
-An interactive 3D simulation of the Solar System built with Python.
+Planets orbit the Sun and rotate around their axes
 
-## 🧭 Overview
+Realistic orbits and speeds (with some simplifications for clarity)
 
-This project visualizes the Sun and planets of the Solar System in a dynamic 3D scene. Users can:
+Interactive controls (zoom, pan, pause, etc. if available)
 
-* Rotate, zoom in/out, and explore the Solar System in real time
-* Observe planets orbiting the Sun and rotating around their own axes
-* Switch between realistic and simplified scales (if implemented)
+Educational and illustrative, not for scientific calculations
 
-**Note:** Some scaling and orbital details are visually simplified for clarity and performance—this project is intended for educational and illustrative purposes, not for scientific accuracy.
+🔧 Technologies
+Python 3.13
 
-## 🔧 Technologies
+[pygame / matplotlib / tkinter / vpython / turtle]
 
-* **Three.js** – for 3D rendering (WebGL)
-* HTML/CSS for layout and styling
-* Vanilla JavaScript (ES6+) for simulation logic
+Standard Python libraries
 
-## 🚀 Getting Started
+🚀 Getting Started
+Clone the repository:
 
-1. **Clone the repository:**
+git clone https://github.com/SirRadek/Solar_system_simulation.git
+cd Solar_system_simulation
+Install dependencies:
+(Replace requirements.txt if you have one, or list libraries explicitly.)
 
-   ```bash
-   git clone https://github.com/SirRadek/Solar_system_simulation.git
-   cd Solar_system_simulation
-   ```
+pip install -r requirements.txt
+or, for example:
 
-2. **Run locally:**
+pip install pygame
 
-   * Open `index.html` directly in your web browser (Chrome/Firefox recommended).
-   * *(Optional, if using a local server—e.g. for modules/assets)*
-     If you use [live-server](https://www.npmjs.com/package/live-server) or similar:
+Run the simulation:
 
-     ```bash
-     npm install
-     npm start
-     ```
+python main.py
 
-     Then open `http://localhost:3000` in your browser.
+🎮 Controls
 
-## 🎮 Controls
+Action	How to Use
+Zoom in/out	Mouse wheel / +/- keys (if implemented)
+Pan/Rotate view	Click and drag / arrow keys (if implemented)
+Pause/Resume	Spacebar or dedicated button
+Reset view	R key or menu
 
-| Action          | How to Use                                |
-| --------------- | ----------------------------------------- |
-| Rotate scene    | Left mouse button drag                    |
-| Zoom in/out     | Mouse wheel or right mouse button drag    |
-| View orbits     | Toggle orbit visualization (if available) |
-| Change speed    | Slider or control panel (if implemented)  |
-| Pause animation | Pause button or keyboard shortcut         |
+Update according to your app’s actual controls.
 
-*Adapt these to reflect your app’s actual controls.*
+📂 Folder Structure
 
-## 📂 Folder Structure
-
-```
 Solar_system_simulation/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   ├── scene.js
-│   ├── planet.js
-│   └── controls.js
-├── assets/
-│   ├── textures/
-│   └── models/
-└── README.md
-```
+├── main.py
+├── requirements.txt
+├── README.md
+├── [other .py modules]
+└── assets/
+    ├── images/
+    └── [etc.]
+🎨 Data Sources & Credits
 
-*Adjust file/folder names to match your project structure!*
+Orbital and size data: NASA, Wikipedia
 
-## 🎨 Data Sources & Credits
+Inspired by open-source solar system visualizations
 
-* Orbital and planetary data: Wikipedia and NASA datasets
-* Textures: Public domain or credited sources (see `/assets/textures`)
-* Inspired by various open-source solar system visualizations
+🛠️ Possible Improvements
+Add asteroids or comets
 
-## 🛠️ Possible Improvements
+Improve physics for more realism (e.g., elliptical orbits, inclination)
 
-* Add moons (e.g. Earth’s Moon, Jupiter’s Io, etc.)
-* More accurate elliptical orbits and axial tilts
-* Asteroids, comets, and Kuiper Belt objects
-* UI for simulation speed, scaling, or toggling planet info
+Add UI for speed, scale, or info panels
+
+Export data or screenshots
+
+✏️ Author
+Radek Široký
+GitHub: SirRadek
 
